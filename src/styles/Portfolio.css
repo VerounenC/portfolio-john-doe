@@ -1,0 +1,17 @@
+.blue-line {
+    height: 3px;
+    background-color: #007bff;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .blue-line {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .blue-line {
+        width: 150px;
+    }
+}

@@ -1,0 +1,30 @@
+.service-card {
+    background-color: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.service-card:hover {
+    background-color: #efefef;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.separator-line {
+    height: 3px;
+    background-color: #007bff;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .separator-line {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .separator-line {
+        width: 150px;
+    }
+}

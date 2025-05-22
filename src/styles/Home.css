@@ -1,0 +1,52 @@
+.hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #636363;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.hero > * {
+    position: relative;
+    z-index: 3;
+}
+
+.hero h1, .hero h2 {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.hero h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.section-title {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.title-line {
+    width: 100%;
+    height: 4px;
+    background-color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
